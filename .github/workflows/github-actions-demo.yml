@@ -62,3 +62,6 @@ jobs:
 
       - name: Run Pylint
         run: pylint app.py
+
+      - name: Run App
+        run: python app.py
