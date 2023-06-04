@@ -3,3 +3,6 @@ install:
 
 frun:
 	flask run
+
+rpylint:
+	pylint app.py
